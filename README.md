@@ -1,2 +1,2 @@
 # Movie-Recommender-System
-Python programme for recommending movies
+End to end Python project for recommending movies.
