@@ -1,5 +1,4 @@
 # Movie-Recommender-System
-End to end Python project for recommending movies.
 
 The Movie Recommender System is designed to help users discover movies they are likely to enjoy.
 It uses machine learning models and data analysis techniques to predict user preferences based on past ratings, movie genres, keywords, and more.
