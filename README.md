@@ -16,4 +16,22 @@ Each movie is represented by its attributes such as:
 
 We transform these textual features into numerical vectors using methods like TF-IDF Vectorization or Count Vectorization.
 
-To measure how similar two movies are, we use the Cosine Similarity technique from scikit-learn
+To measure how similar two movies are, we use the Cosine Similarity technique from scikit-learn.
+
+### Steps
+- Import cosine_similarity from scikit-learn
+- Calculate Similarity Matrix: After vectorizing the movie features (stored in vector), we compute pairwise similarities.
+- Find Movie Index: To recommend movies similar to a specific movie, we first find its index in the dataset.
+- Define Recommendation Function: We create a recommend() function that:
+
+Takes the movie title as input
+
+Finds its corresponding index
+
+Retrieves similarity scores with all other movies
+
+Sorts the movies by similarity in descending order
+
+Prints the top 5 similar movie title
+
+
